@@ -1,16 +1,20 @@
 #git command list
 
-git init : initialize repository
+git init : 저장소 지정
 
-.git : git repository
+.git : 저장소폴더
 
-got status : working tree status
+got status : working tree의 상태확인
 
-git add : add to staging area
+git add : 작업내용을 Staging area에 추가
 
-git log : show version
+git log : 생성된 버전의 기록확인
 
-git log --stat : commit detail status
+git log --stat : 버전들의 기록 자세히보기
+
+git diff : 작업 중 변경된 내용 확인하기
+
+git log -p : 버전간의 변경 내용 확인하기
 
 Repository : 생성된 버전들의 저장소
 
