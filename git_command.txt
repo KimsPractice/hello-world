@@ -26,8 +26,14 @@ git diff : 작업 중 변경된 내용 확인하기
 
 git checkout (대상) : 작업하고자하는 버전으로 이동 
 
+git reset (대상), git reset --mixed (대상) : 대상으로 시점 변경 및 작업한내용은 보존 ( index 취소, add하기전 unstaged 상태 )
+
+git reset --hard (대상) : 대상으로 시점 변경 및 이후 모든정보 상제 ( index취소 , add하기전 unstaged 상태)
+
+git reset --soft (대상) : 대상으로 시점 변경 및 모든정보 보존 ( index 보존, add된 상태 stage 상태 )
+
 git config --global core.editor "편집기이름" : git의 기본에디터 변경
-※ --global 옵션은 현재 컴퓨터 전역의 설정을 일괄 변경
+※ --global 옵션은 현재 컴퓨터 전역의 설정을 일괄 변경 
 
 Repository : 생성된 버전들의 저장소
 
