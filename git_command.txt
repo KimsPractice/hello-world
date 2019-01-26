@@ -10,6 +10,8 @@ git add : add to staging area
 
 git log : show version
 
+git log --stat : commit detail status
+
 Repository : 생성된 버전들의 저장소
 
 Staging Area : 버전으로 생성하고자 하는 파일들을 분리하는 공간
