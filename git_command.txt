@@ -32,6 +32,9 @@ git reset --hard (대상) : 대상으로 시점 변경 및 이후 모든정보 �
 
 git reset --soft (대상) : 대상으로 시점 변경 및 모든정보 보존 ( index 보존, add된 상태 stage 상태 )
 
+git revert (대상) : 직전버전에 대한 변경내용 및 커밋 취소
+※역순으로 한단계씩 진행되어야함 ( 건너뛰기하면 충돌발생 )
+
 git config --global core.editor "편집기이름" : git의 기본에디터 변경
 ※ --global 옵션은 현재 컴퓨터 전역의 설정을 일괄 변경 
 
