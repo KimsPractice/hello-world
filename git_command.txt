@@ -8,15 +8,26 @@ got status : working tree의 상태확인
 
 git add (대상) : 작업내용을 Staging area에 추가
 
+git add . : 현재 디렉토리의 모든파일을 add
+
+git commit : 버전 생성 후 에디터를 사용하여 메세지 작성
+
+git commit -m "메세지" : 에디터를 사용하지 않고 간략한 메세지 작성하여 버전생성
+
+git commit -am ": 이전 버전이 존재하는 조건하에 add와 버전생성을 동시처리
+
 git log : 생성된 버전의 기록확인
 
 git log --stat : 버전들의 기록 자세히보기
 
-git diff : 작업 중 변경된 내용 확인하기
-
 git log -p : 버전간의 변경 내용 확인하기
 
+git diff : 작업 중 변경된 내용 확인하기
+
 git checkout (대상) : 작업하고자하는 버전으로 이동 
+
+git config --global core.editor "편집기이름" : git의 기본에디터 변경
+※ --global 옵션은 현재 컴퓨터 전역의 설정을 일괄 변경
 
 Repository : 생성된 버전들의 저장소
 
