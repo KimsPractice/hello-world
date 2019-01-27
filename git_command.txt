@@ -37,7 +37,7 @@ git revert (대상) : 직전버전에 대한 변경내용 및 커밋 취소
 
 git branch : 현재 저장소에 생성된 브랜치 목록을 보여줌
 
-git branch (대상) : 대상 브렌치를 사용
+git branch (대상) : 새로운 브랜치를 생성
 
 git tag : 생성된 태그 전체 조회
 
