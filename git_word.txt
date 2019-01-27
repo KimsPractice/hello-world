@@ -1,0 +1,18 @@
+#GIT 관련 단어 설명 파일
+
+
+ Repository : 생성된 버전들의 저장소
+ local repository : 지역저장소 즉 현재 자신이 사용중인 기기의 저장소
+ remote repository : 원격저장소 즉 자신이 사용중이지 않은 기기의 저장소 혹은 호스팅 서버의 저장소
+ hosting : 업체의 서버를 임대받아 사용
+ Working tree : 버전으로 생성되기 전의 업데이트 작업공간
+ Staging area : 버전으로 생성하고자 하는 파일들을 분리하는 공간
+ add : working tree에 작업파일을 Staging area에 등록
+ log : 버전들의 history의 내용
+ commit : 버전생성
+ branch : 버전의 같은내용을 임시로 복제하여 작업가능하게함
+ clone : remote repository의 버전을 local repository로 복제함
+ pull : remote repositry의 버전을 local repository로 가져와 병합
+ push : local repository의 버전내용을 remote repository에 저장
+ 
+ 

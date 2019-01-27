@@ -57,11 +57,3 @@ git push origin :(태그이름) : 원격저장소에 저장된 태그삭제
 
 git config --global core.editor "편집기이름" : git의 기본에디터 변경
 ※ --global 옵션은 현재 컴퓨터 전역의 설정을 일괄 변경 
-
-Repository : 생성된 버전들의 저장소
-
-Staging Area : 버전으로 생성하고자 하는 파일들을 분리하는 공간
-
-Working tree : 버전으로 생성되기 전의 업데이트 작업공간
-
-
