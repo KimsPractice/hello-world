@@ -16,6 +16,8 @@ git commit -m "메세지" : 에디터를 사용하지 않고 간략한 메세지
 
 git commit -am ": 이전 버전이 존재하는 조건하에 add와 버전생성을 동시처리
 
+git commit --amend : 직전커밋의 커밋메세지를 수정
+
 git log : 생성된 버전의 기록확인
 
 git log --stat : 버전들의 기록 자세히보기
@@ -38,6 +40,8 @@ git revert (대상) : 직전버전에 대한 변경내용 및 커밋 취소
 git branch : 현재 저장소에 생성된 브랜치 목록을 보여줌
 
 git branch (대상) : 새로운 브랜치를 생성
+
+git merge (대상 브랜치) : 대상 브랜치와 내용을 병합
 
 git push : 현재 지역저장소의 내용을 원격저장소로 전송
 

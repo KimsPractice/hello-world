@@ -14,5 +14,5 @@
  clone : remote repository의 버전을 local repository로 복제함
  pull : remote repositry의 버전을 local repository로 가져와 병합
  push : local repository의 버전내용을 remote repository에 저장
- 
+ conflict : 같은파일을 동시에 변경하였을때 자료의 병합을 위해 충돌발생 
  
