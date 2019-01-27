@@ -1,4 +1,4 @@
 <?php
-echo "hi welcome"
+echo "hi hellow"
 echo "작업중입니다."
 ?>
